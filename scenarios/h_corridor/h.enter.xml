@@ -1,0 +1,16 @@
+<data>
+    <interval id="h" begin="0.00" end="4400.00">
+        <edge id="e1" entered="850"/>
+        <edge id="sh2" entered="850"/>
+        <edge id="nh2" entered="850"/>
+        <edge id="nh3" entered="850"/>
+        <edge id="sh3" entered="850"/>
+        <edge id="nh4" entered="850"/>
+        <edge id="sh4" entered="850"/>
+        <edge id="nh5" entered="850"/>
+        <edge id="sh5" entered="850"/>
+        <edge id="nh6" entered="850"/>
+        <edge id="sh6" entered="850"/>
+        <edge id="w6" entered="850"/>
+    </interval>
+</data>

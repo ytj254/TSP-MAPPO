@@ -1,0 +1,122 @@
+<routes>
+    <route id="0" edges="e1 e2 e3 e4 e5 e6"/> <!-- 408 -->
+    <route id="1" edges="e1 e2 e3 e4 e5 hn6"/> <!-- 33 -->
+    <route id="2" edges="e1 e2 e3 e4 e5 hs6"/> <!-- 33 -->
+    <route id="3" edges="e1 e2 e3 e4 hn5"/> <!-- 69 -->
+    <route id="4" edges="e1 e2 e3 e4 hs5"/> <!-- 6 -->
+    <route id="5" edges="e1 e2 e3 hn4"/> <!-- 248 -->
+    <route id="6" edges="e1 e2 e3 hs4"/> <!-- 197 -->
+    <route id="7" edges="e1 e2 hn3"/> <!-- 11 -->
+    <route id="8" edges="e1 e2 hs3"/> <!-- 194 -->
+    <route id="9" edges="e1 hs2"/> <!-- 65 -->
+
+    <route id="10" edges="nh3 e3 e4 e5 e6"/> <!-- 3 -->
+    <route id="11" edges="nh3 e3 e4 e5 hn6"/>
+    <route id="12" edges="nh3 e3 e4 e5 hs6"/>
+    <route id="13" edges="nh3 e3 e4 hn5"/>
+    <route id="14" edges="nh3 e3 e4 hs5"/>
+    <route id="15" edges="nh3 e3 hn4"/> <!-- 5 -->
+    <route id="16" edges="nh3 e3 hs4"/> <!-- 3 -->
+    <route id="17" edges="nh3 hs3"/> <!-- 11 -->
+    <route id="18" edges="nh3 w2 hs2"/> <!-- 1 -->
+    <route id="19" edges="nh3 w2 w1"/> <!-- 14 -->
+
+    <route id="20" edges="nh4 e4 e5 e6"/> <!-- 21 -->
+    <route id="21" edges="nh4 e4 e5 hn6"/> <!-- 6 -->
+    <route id="22" edges="nh4 e4 e5 hs6"/> <!-- 2 -->
+    <route id="23" edges="nh4 e4 hn5"/> <!-- 6 -->
+    <route id="24" edges="nh4 e4 hs5"/>
+    <route id="25" edges="nh4 hs4"/> <!-- 316 -->
+    <route id="26" edges="nh4 w3 hn3"/>
+    <route id="27" edges="nh4 w3 hs3"/> <!-- 20 -->
+    <route id="28" edges="nh4 w3 w2 hs2"/> <!-- 1 -->
+    <route id="29" edges="nh4 w3 w2 w1"/> <!-- 48 -->
+
+    <route id="30" edges="nh5 e5 e6"/> <!-- 123 -->
+    <route id="31" edges="nh5 e5 hn6"/> <!-- 10 -->
+    <route id="32" edges="nh5 e5 hs6"/> <!-- 2 -->
+    <route id="33" edges="nh5 hs5"/> <!-- 30 -->
+    <route id="34" edges="nh5 w4 hn4"/> <!-- 6 -->
+    <route id="35" edges="nh5 w4 hs4"/> <!-- 12 -->
+    <route id="36" edges="nh5 w4 w3 hn3"/>
+    <route id="37" edges="nh5 w4 w3 hs3"/> <!-- 7 -->
+    <route id="38" edges="nh5 w4 w3 w2 hs2"/> <!-- 1 -->
+    <route id="39" edges="nh5 w4 w3 w2 w1"/> <!-- 12 -->
+
+    <route id="40" edges="nh6 e6"/> <!-- 58 -->
+    <route id="41" edges="nh6 hs6"/> <!-- 13 -->
+    <route id="42" edges="nh6 w5 hn5"/> <!-- 13 -->
+    <route id="43" edges="nh6 w5 hs5"/> <!-- 6 -->
+    <route id="44" edges="nh6 w5 w4 hn4"/> <!-- 4 -->
+    <route id="45" edges="nh6 w5 w4 hs4"/> <!-- 14 -->
+    <route id="46" edges="nh6 w5 w4 w3 hn3"/> <!-- 1 -->
+    <route id="47" edges="nh6 w5 w4 w3 hs3"/> <!-- 3 -->
+    <route id="48" edges="nh6 w5 w4 w3 w2 hs2"/>
+    <route id="49" edges="nh6 w5 w4 w3 w2 w1"/> <!-- 11 -->
+
+    <route id="50" edges="sh2 e2 e3 e4 e5 e6"/> <!-- 22 -->
+    <route id="51" edges="sh2 e2 e3 e4 e5 hn6"/> <!-- 1 -->
+    <route id="52" edges="sh2 e2 e3 e4 e5 hs6"/> <!-- 3 -->
+    <route id="53" edges="sh2 e2 e3 e4 hn5"/> <!-- 5 -->
+    <route id="54" edges="sh2 e2 e3 e4 hs5"/>
+    <route id="55" edges="sh2 e2 e3 hn4"/> <!-- 17 -->
+    <route id="56" edges="sh2 e2 e3 hs4"/> <!-- 13 -->
+    <route id="57" edges="sh2 e2 hn3"/> <!-- 3 -->
+    <route id="58" edges="sh2 e2 hs3"/> <!-- 11 -->
+    <route id="59" edges="sh2 w1"/> <!-- 36 -->
+
+    <route id="60" edges="sh3 e3 e4 e5 e6"/> <!-- 70 -->
+    <route id="61" edges="sh3 e3 e4 e5 hn6"/> <!-- 10 -->
+    <route id="62" edges="sh3 e3 e4 e5 hs6"/> <!-- 5 -->
+    <route id="63" edges="sh3 e3 e4 hn5"/> <!-- 18 -->
+    <route id="64" edges="sh3 e3 e4 hs5"/> <!-- 4 -->
+    <route id="65" edges="sh3 e3 hn4"/> <!-- 44 -->
+    <route id="66" edges="sh3 e3 hs4"/> <!-- 39 -->
+    <route id="67" edges="sh3 hn3"/> <!-- 4 -->
+    <route id="68" edges="sh3 w2 hs2"/>
+    <route id="69" edges="sh3 w2 w1"/> <!-- 106 -->
+
+    <route id="70" edges="sh4 e4 e5 e6"/> <!-- 95 -->
+    <route id="71" edges="sh4 e4 e5 hn6"/> <!-- 4 -->
+    <route id="72" edges="sh4 e4 e5 hs6"/> <!-- 8 -->
+    <route id="73" edges="sh4 e4 hn5"/> <!-- 13 -->
+    <route id="74" edges="sh4 e4 hs5"/>
+    <route id="75" edges="sh4 hn4"/> <!-- 332 -->
+    <route id="76" edges="sh4 w3 hn3"/> <!-- 1 -->
+    <route id="77" edges="sh4 w3 hs3"/> <!-- 12 -->
+    <route id="78" edges="sh4 w3 w2 hs2"/>
+    <route id="79" edges="sh4 w3 w2 w1"/> <!-- 52 -->
+
+    <route id="80" edges="sh5 e5 e6"/> <!-- 84 -->
+    <route id="81" edges="sh5 e5 hn6"/> <!-- 4 -->
+    <route id="82" edges="sh5 e5 hs6"/> <!-- 5 -->
+    <route id="83" edges="sh5 hn5"/> <!-- 89 -->
+    <route id="84" edges="sh5 w4 hn4"/> <!-- 2 -->
+    <route id="85" edges="sh5 w4 hs4"/> <!-- 10 -->
+    <route id="86" edges="sh5 w4 w3 hn3"/>
+    <route id="87" edges="sh5 w4 w3 hs3"/> <!-- 2 -->
+    <route id="88" edges="sh5 w4 w3 w2 hs2"/>
+    <route id="89" edges="sh5 w4 w3 w2 w1"/> <!-- 4 -->
+
+    <route id="90" edges="sh6 e6"/> <!-- 48 -->
+    <route id="91" edges="sh6 hn6"/> <!-- 32 -->
+    <route id="92" edges="sh6 w5 hn5"/> <!-- 23 -->
+    <route id="93" edges="sh6 w5 hs5"/> <!-- 10 -->
+    <route id="94" edges="sh6 w5 w4 hn4"/> <!-- 3 -->
+    <route id="95" edges="sh6 w5 w4 hs4"/> <!-- 17 -->
+    <route id="96" edges="sh6 w5 w4 w3 hn3"/> <!-- 1 -->
+    <route id="97" edges="sh6 w5 w4 w3 hs3"/> <!-- 4 -->
+    <route id="98" edges="sh6 w5 w4 w3 w2 hs2"/> <!-- 1 -->
+    <route id="99" edges="sh6 w5 w4 w3 w2 w1"/> <!-- 21 -->
+
+    <route id="100" edges="w6 hn6"/> <!-- 11 -->
+    <route id="101" edges="w6 hs6"/> <!-- 41 -->
+    <route id="102" edges="w6 w5 hn5"/> <!-- 69 -->
+    <route id="103" edges="w6 w5 hs5"/> <!-- 20 -->
+    <route id="104" edges="w6 w5 w4 hn4"/> <!-- 19 -->
+    <route id="105" edges="w6 w5 w4 hs4"/> <!-- 47 -->
+    <route id="106" edges="w6 w5 w4 w3 hn3"/> <!-- 1 -->
+    <route id="107" edges="w6 w5 w4 w3 hs3"/> <!-- 19 -->
+    <route id="108" edges="w6 w5 w4 w3 w2 hs2"/> <!-- 1 -->
+    <route id="109" edges="w6 w5 w4 w3 w2 w1"/> <!-- 77 -->
+</routes>

@@ -1,0 +1,136 @@
+<routes>
+    <vType id="car" carFollowModel="IDM" vClass="passenger"/>
+    <vType id="cv" carFollowModel="IDM" vClass="passenger" color="0,1,1"/>
+
+    <route id="0" edges="e1 e2 e3 e4 e5 e6" />
+    <route id="5" edges="e1 e2 e3 hn4" />
+    <route id="6" edges="e1 e2 e3 hs4" />
+    <route id="7" edges="e1 e2 hn3" />
+    <route id="8" edges="e1 e2 hs3" />
+    <route id="9" edges="e1 hs2" />
+    <route id="17" edges="nh3 hs3" />
+    <route id="20" edges="nh4 e4 e5 e6" />
+    <route id="25" edges="nh4 hs4" />
+    <route id="26" edges="nh4 w3 hn3" />
+    <route id="29" edges="nh4 w3 w2 w1" />
+    <route id="30" edges="nh5 e5 e6" />
+    <route id="33" edges="nh5 hs5" />
+    <route id="39" edges="nh5 w4 w3 w2 w1" />
+    <route id="40" edges="nh6 e6" />
+    <route id="41" edges="nh6 hs6" />
+    <route id="56" edges="sh2 e2 e3 hs4" />
+    <route id="59" edges="sh2 w1" />
+    <route id="66" edges="sh3 e3 hs4" />
+    <route id="67" edges="sh3 hn3" />
+    <route id="69" edges="sh3 w2 w1" />
+    <route id="70" edges="sh4 e4 e5 e6" />
+    <route id="71" edges="sh4 e4 e5 hn6" />
+    <route id="73" edges="sh4 e4 hn5" />
+    <route id="74" edges="sh4 e4 hs5" />
+    <route id="75" edges="sh4 hn4" />
+    <route id="77" edges="sh4 w3 hs3" />
+    <route id="79" edges="sh4 w3 w2 w1" />
+    <route id="80" edges="sh5 e5 e6" />
+    <route id="82" edges="sh5 e5 hs6" />
+    <route id="83" edges="sh5 hn5" />
+    <route id="85" edges="sh5 w4 hs4" />
+    <route id="90" edges="sh6 e6" />
+    <route id="91" edges="sh6 hn6" />
+    <route id="92" edges="sh6 w5 hn5" />
+    <route id="100" edges="w6 hn6" />
+    <route id="101" edges="w6 hs6" />
+    <route id="102" edges="w6 w5 hn5" />
+    <route id="103" edges="w6 w5 hs5" />
+    <route id="104" edges="w6 w5 w4 hn4" />
+    <route id="105" edges="w6 w5 w4 hs4" />
+    <route id="108" edges="w6 w5 w4 w3 w2 hs2" />
+    <route id="109" edges="w6 w5 w4 w3 w2 w1" />
+    <flows>
+        <flow id="9_0" begin="0.00" end="4168.85" route="9" departLane="best" departSpeed="max" type="cv" probability="0.01168" />
+        <flow id="9_1" begin="0.00" end="4168.85" route="9" departLane="best" departSpeed="max" type="car" probability="0.00292" />
+        <flow id="75_0" begin="0.68" end="4392.57" route="75" departLane="best" departSpeed="max" type="cv" probability="0.19656" />
+        <flow id="75_1" begin="0.68" end="4392.57" route="75" departLane="best" departSpeed="max" type="car" probability="0.04914" />
+        <flow id="105_0" begin="2.03" end="4365.53" route="105" departLane="best" departSpeed="max" type="cv" probability="0.03008" />
+        <flow id="105_1" begin="2.03" end="4365.53" route="105" departLane="best" departSpeed="max" type="car" probability="0.00752" />
+        <flow id="0_0" begin="2.70" end="4393.92" route="0" departLane="best" departSpeed="max" type="cv" probability="0.12184" />
+        <flow id="0_1" begin="2.70" end="4393.92" route="0" departLane="best" departSpeed="max" type="car" probability="0.03046" />
+        <flow id="25_0" begin="3.38" end="4387.83" route="25" departLane="best" departSpeed="max" type="cv" probability="0.1768" />
+        <flow id="25_1" begin="3.38" end="4387.83" route="25" departLane="best" departSpeed="max" type="car" probability="0.0442" />
+        <flow id="56_0" begin="4.06" end="4389.86" route="56" departLane="best" departSpeed="max" type="cv" probability="0.01384" />
+        <flow id="56_1" begin="4.06" end="4389.86" route="56" departLane="best" departSpeed="max" type="car" probability="0.00346" />
+        <flow id="73_0" begin="5.41" end="4396.62" route="73" departLane="best" departSpeed="max" type="cv" probability="0.02736" />
+        <flow id="73_1" begin="5.41" end="4396.62" route="73" departLane="best" departSpeed="max" type="car" probability="0.00684" />
+        <flow id="39_0" begin="6.08" end="4371.61" route="39" departLane="best" departSpeed="max" type="cv" probability="0.0172" />
+        <flow id="39_1" begin="6.08" end="4371.61" route="39" departLane="best" departSpeed="max" type="car" probability="0.0043" />
+        <flow id="5_0" begin="7.43" end="4399.32" route="5" departLane="best" departSpeed="max" type="cv" probability="0.0548" />
+        <flow id="5_1" begin="7.43" end="4399.32" route="5" departLane="best" departSpeed="max" type="car" probability="0.0137" />
+        <flow id="92_0" begin="8.11" end="4356.07" route="92" departLane="best" departSpeed="max" type="cv" probability="0.0112" />
+        <flow id="92_1" begin="8.11" end="4356.07" route="92" departLane="best" departSpeed="max" type="car" probability="0.0028" />
+        <flow id="33_0" begin="9.46" end="4389.19" route="33" departLane="best" departSpeed="max" type="cv" probability="0.01168" />
+        <flow id="33_1" begin="9.46" end="4389.19" route="33" departLane="best" departSpeed="max" type="car" probability="0.00292" />
+        <flow id="20_0" begin="11.49" end="4357.42" route="20" departLane="best" departSpeed="max" type="cv" probability="0.01992" />
+        <flow id="20_1" begin="11.49" end="4357.42" route="20" departLane="best" departSpeed="max" type="car" probability="0.00498" />
+        <flow id="70_0" begin="13.52" end="4367.56" route="70" departLane="best" departSpeed="max" type="cv" probability="0.02168" />
+        <flow id="70_1" begin="13.52" end="4367.56" route="70" departLane="best" departSpeed="max" type="car" probability="0.00542" />
+        <flow id="102_0" begin="14.19" end="4395.27" route="102" departLane="best" departSpeed="max" type="cv" probability="0.03192" />
+        <flow id="102_1" begin="14.19" end="4395.27" route="102" departLane="best" departSpeed="max" type="car" probability="0.00798" />
+        <flow id="40_0" begin="14.87" end="4348.63" route="40" departLane="best" departSpeed="max" type="cv" probability="0.01128" />
+        <flow id="40_1" begin="14.87" end="4348.63" route="40" departLane="best" departSpeed="max" type="car" probability="0.00282" />
+        <flow id="90_0" begin="15.55" end="4363.50" route="90" departLane="best" departSpeed="max" type="cv" probability="0.00848" />
+        <flow id="90_1" begin="15.55" end="4363.50" route="90" departLane="best" departSpeed="max" type="car" probability="0.00212" />
+        <flow id="29_0" begin="17.57" end="4386.48" route="29" departLane="best" departSpeed="max" type="cv" probability="0.03696" />
+        <flow id="29_1" begin="17.57" end="4386.48" route="29" departLane="best" departSpeed="max" type="car" probability="0.00924" />
+        <flow id="71_0" begin="20.28" end="4309.43" route="71" departLane="best" departSpeed="max" type="cv" probability="0.01736" />
+        <flow id="71_1" begin="20.28" end="4309.43" route="71" departLane="best" departSpeed="max" type="car" probability="0.00434" />
+        <flow id="30_0" begin="20.95" end="4374.99" route="30" departLane="best" departSpeed="max" type="cv" probability="0.05528" />
+        <flow id="30_1" begin="20.95" end="4374.99" route="30" departLane="best" departSpeed="max" type="car" probability="0.01382" />
+        <flow id="109_0" begin="27.71" end="4394.59" route="109" departLane="best" departSpeed="max" type="cv" probability="0.0584" />
+        <flow id="109_1" begin="27.71" end="4394.59" route="109" departLane="best" departSpeed="max" type="car" probability="0.0146" />
+        <flow id="82_0" begin="30.41" end="4397.97" route="82" departLane="best" departSpeed="max" type="cv" probability="0.01536" />
+        <flow id="82_1" begin="30.41" end="4397.97" route="82" departLane="best" departSpeed="max" type="car" probability="0.00384" />
+        <flow id="108_0" begin="34.47" end="4170.88" route="108" departLane="best" departSpeed="max" type="cv" probability="0.0008" />
+        <flow id="108_1" begin="34.47" end="4170.88" route="108" departLane="best" departSpeed="max" type="car" probability="0.0002" />
+        <flow id="83_0" begin="36.50" end="4393.24" route="83" departLane="best" departSpeed="max" type="cv" probability="0.02256" />
+        <flow id="83_1" begin="36.50" end="4393.24" route="83" departLane="best" departSpeed="max" type="car" probability="0.00564" />
+        <flow id="66_0" begin="37.17" end="4338.49" route="66" departLane="best" departSpeed="max" type="cv" probability="0.02752" />
+        <flow id="66_1" begin="37.17" end="4338.49" route="66" departLane="best" departSpeed="max" type="car" probability="0.00688" />
+        <flow id="8_0" begin="39.20" end="4382.43" route="8" departLane="best" departSpeed="max" type="cv" probability="0.04032" />
+        <flow id="8_1" begin="39.20" end="4382.43" route="8" departLane="best" departSpeed="max" type="car" probability="0.01008" />
+        <flow id="69_0" begin="43.26" end="4390.54" route="69" departLane="best" departSpeed="max" type="cv" probability="0.01488" />
+        <flow id="69_1" begin="43.26" end="4390.54" route="69" departLane="best" departSpeed="max" type="car" probability="0.00372" />
+        <flow id="85_0" begin="45.28" end="4398.65" route="85" departLane="best" departSpeed="max" type="cv" probability="0.00512" />
+        <flow id="85_1" begin="45.28" end="4398.65" route="85" departLane="best" departSpeed="max" type="car" probability="0.00128" />
+        <flow id="103_0" begin="52.72" end="4317.54" route="103" departLane="best" departSpeed="max" type="cv" probability="0.0152" />
+        <flow id="103_1" begin="52.72" end="4317.54" route="103" departLane="best" departSpeed="max" type="car" probability="0.0038" />
+        <flow id="17_0" begin="55.42" end="4369.59" route="17" departLane="best" departSpeed="max" type="cv" probability="0.00224" />
+        <flow id="17_1" begin="55.42" end="4369.59" route="17" departLane="best" departSpeed="max" type="car" probability="0.00056" />
+        <flow id="77_0" begin="56.10" end="4383.78" route="77" departLane="best" departSpeed="max" type="cv" probability="0.03752" />
+        <flow id="77_1" begin="56.10" end="4383.78" route="77" departLane="best" departSpeed="max" type="car" probability="0.00938" />
+        <flow id="101_0" begin="70.29" end="4391.89" route="101" departLane="best" departSpeed="max" type="cv" probability="0.0228" />
+        <flow id="101_1" begin="70.29" end="4391.89" route="101" departLane="best" departSpeed="max" type="car" probability="0.0057" />
+        <flow id="59_0" begin="105.44" end="4368.23" route="59" departLane="best" departSpeed="max" type="cv" probability="0.00656" />
+        <flow id="59_1" begin="105.44" end="4368.23" route="59" departLane="best" departSpeed="max" type="car" probability="0.00164" />
+        <flow id="104_0" begin="109.49" end="4312.81" route="104" departLane="best" departSpeed="max" type="cv" probability="0.01576" />
+        <flow id="104_1" begin="109.49" end="4312.81" route="104" departLane="best" departSpeed="max" type="car" probability="0.00394" />
+        <flow id="100_0" begin="140.58" end="4238.46" route="100" departLane="best" departSpeed="max" type="cv" probability="0.00544" />
+        <flow id="100_1" begin="140.58" end="4238.46" route="100" departLane="best" departSpeed="max" type="car" probability="0.00136" />
+        <flow id="67_0" begin="164.24" end="3468.63" route="67" departLane="best" departSpeed="max" type="cv" probability="0.00144" />
+        <flow id="67_1" begin="164.24" end="3468.63" route="67" departLane="best" departSpeed="max" type="car" probability="0.00036" />
+        <flow id="74_0" begin="181.81" end="3807.93" route="74" departLane="best" departSpeed="max" type="cv" probability="0.00264" />
+        <flow id="74_1" begin="181.81" end="3807.93" route="74" departLane="best" departSpeed="max" type="car" probability="0.00066" />
+        <flow id="91_0" begin="266.97" end="4324.98" route="91" departLane="best" departSpeed="max" type="cv" probability="0.00648" />
+        <flow id="91_1" begin="266.97" end="4324.98" route="91" departLane="best" departSpeed="max" type="car" probability="0.00162" />
+        <flow id="80_0" begin="387.96" end="4297.27" route="80" departLane="best" departSpeed="max" type="cv" probability="0.00816" />
+        <flow id="80_1" begin="387.96" end="4297.27" route="80" departLane="best" departSpeed="max" type="car" probability="0.00204" />
+        <flow id="79_0" begin="393.36" end="4293.21" route="79" departLane="best" departSpeed="max" type="cv" probability="0.00352" />
+        <flow id="79_1" begin="393.36" end="4293.21" route="79" departLane="best" departSpeed="max" type="car" probability="0.00088" />
+        <flow id="7_0" begin="628.57" end="3329.40" route="7" departLane="best" departSpeed="max" type="cv" probability="0.00056" />
+        <flow id="7_1" begin="628.57" end="3329.40" route="7" departLane="best" departSpeed="max" type="car" probability="0.00014" />
+        <flow id="6_0" begin="736.04" end="4374.32" route="6" departLane="best" departSpeed="max" type="cv" probability="0.00264" />
+        <flow id="6_1" begin="736.04" end="4374.32" route="6" departLane="best" departSpeed="max" type="car" probability="0.00066" />
+        <flow id="41_0" begin="857.70" end="4395.94" route="41" departLane="best" departSpeed="max" type="cv" probability="0.00272" />
+        <flow id="41_1" begin="857.70" end="4395.94" route="41" departLane="best" departSpeed="max" type="car" probability="0.00068" />
+        <flow id="26_0" begin="1129.40" end="4361.47" route="26" departLane="best" departSpeed="max" type="cv" probability="0.0032" />
+        <flow id="26_1" begin="1129.40" end="4361.47" route="26" departLane="best" departSpeed="max" type="car" probability="0.0008" />
+    </flows>
+</routes>

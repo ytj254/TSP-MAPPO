@@ -1,0 +1,28 @@
+<data>
+    <interval id="r" begin="0.00" end="4400.00">
+<!--        peak-->
+        <edge id="e1" entered="1264"/>
+        <edge id="sh2" entered="111"/>
+        <edge id="nh3" entered="37"/>
+        <edge id="sh3" entered="484"/>
+        <edge id="nh4" entered="1292"/>
+        <edge id="sh4" entered="1696"/>
+        <edge id="nh5" entered="458"/>
+        <edge id="sh5" entered="280"/>
+        <edge id="nh6" entered="123"/>
+        <edge id="sh6" entered="160"/>
+        <edge id="w6" entered="978"/>
+<!--        off-peak-->
+<!--        <edge id="e1" entered="453"/>-->
+<!--        <edge id="sh2" entered="60"/>-->
+<!--        <edge id="nh3" entered="18"/>-->
+<!--        <edge id="sh3" entered="207"/>-->
+<!--        <edge id="nh4" entered="1094"/>-->
+<!--        <edge id="sh4" entered="979"/>-->
+<!--        <edge id="nh5" entered="304"/>-->
+<!--        <edge id="sh5" entered="87"/>-->
+<!--        <edge id="nh6" entered="98"/>-->
+<!--        <edge id="sh6" entered="98"/>-->
+<!--        <edge id="w6" entered="799"/>-->
+    </interval>
+</data>

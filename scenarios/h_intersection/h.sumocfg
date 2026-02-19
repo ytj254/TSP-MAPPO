@@ -1,0 +1,9 @@
+<configuration>
+
+    <input>
+        <net-file value="h.net.xml"/>
+        <route-files value="sample.rou.xml"/>
+        <additional-files value="h.add.xml"/>
+    </input>
+    <time-to-teleport value="-1"/>
+</configuration>

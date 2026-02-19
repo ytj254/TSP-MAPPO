@@ -1,0 +1,72 @@
+<add>
+<tlLogic id="h2" type="static" programID="0" offset="0">
+        <phase duration="9"  state="grGgrrgrGgrr" name="SNL"/>
+        <phase duration="3"  state="grygrrgrygrr" name="y"/>
+        <phase duration="2"  state="grrgrrgrrgrr" name="r"/>
+        <phase duration="61" state="GGrgrrGGrgrr" name="SNT"/>
+        <phase duration="3"  state="gyrgrrgyrgrr" name="y"/>
+        <phase duration="2"  state="grrgrrgrrgrr" name="r"/>
+        <phase duration="9"  state="grrgrGgrrgrG" name="EWL"/>
+        <phase duration="3"  state="grrgrygrrgry" name="y"/>
+        <phase duration="2"  state="grrgrrgrrgrr" name="r"/>
+        <phase duration="61" state="grrGGrgrrGGr" name="EWT"/>
+        <phase duration="3"  state="grrgyrgrrgyr" name="y"/>
+        <phase duration="2"  state="grrgrrgrrgrr" name="r"/>
+    </tlLogic>
+    <tlLogic id="h3" type="static" programID="0" offset="0">
+        <phase duration="9"  state="grGgrrgrGgrr" name="SNL"/>
+        <phase duration="3"  state="grygrrgrygrr" name="y"/>
+        <phase duration="2"  state="grrgrrgrrgrr" name="r"/>
+        <phase duration="61" state="GGrgrrGGrgrr" name="SNT"/>
+        <phase duration="3"  state="gyrgrrgyrgrr" name="y"/>
+        <phase duration="2"  state="grrgrrgrrgrr" name="r"/>
+        <phase duration="9"  state="grrgrGgrrgrG" name="EWL"/>
+        <phase duration="3"  state="grrgrygrrgry" name="y"/>
+        <phase duration="2"  state="grrgrrgrrgrr" name="r"/>
+        <phase duration="61" state="grrGGrgrrGGr" name="EWT"/>
+        <phase duration="3"  state="grrgyrgrrgyr" name="y"/>
+        <phase duration="2"  state="grrgrrgrrgrr" name="r"/>
+    </tlLogic>
+    <tlLogic id="h4" type="static" programID="0" offset="0">
+        <phase duration="9"  state="grGgrrgrGgrr" name="SNL"/>
+        <phase duration="3"  state="grygrrgrygrr" name="y"/>
+        <phase duration="2"  state="grrgrrgrrgrr" name="r"/>
+        <phase duration="61" state="GGrgrrGGrgrr" name="SNT"/>
+        <phase duration="3"  state="gyrgrrgyrgrr" name="y"/>
+        <phase duration="2"  state="grrgrrgrrgrr" name="r"/>
+        <phase duration="9"  state="grrgrGgrrgrG" name="EWL"/>
+        <phase duration="3"  state="grrgrygrrgry" name="y"/>
+        <phase duration="2"  state="grrgrrgrrgrr" name="r"/>
+        <phase duration="61" state="grrGGrgrrGGr" name="EWT"/>
+        <phase duration="3"  state="grrgyrgrrgyr" name="y"/>
+        <phase duration="2"  state="grrgrrgrrgrr" name="r"/>
+    </tlLogic>
+    <tlLogic id="h5" type="static" programID="0" offset="0">
+        <phase duration="9"  state="grGgrrgrGgrr" name="SNL"/>
+        <phase duration="3"  state="grygrrgrygrr" name="y"/>
+        <phase duration="2"  state="grrgrrgrrgrr" name="r"/>
+        <phase duration="61" state="GGrgrrGGrgrr" name="SNT"/>
+        <phase duration="3"  state="gyrgrrgyrgrr" name="y"/>
+        <phase duration="2"  state="grrgrrgrrgrr" name="r"/>
+        <phase duration="9"  state="grrgrGgrrgrG" name="EWL"/>
+        <phase duration="3"  state="grrgrygrrgry" name="y"/>
+        <phase duration="2"  state="grrgrrgrrgrr" name="r"/>
+        <phase duration="61" state="grrGGrgrrGGr" name="EWT"/>
+        <phase duration="3"  state="grrgyrgrrgyr" name="y"/>
+        <phase duration="2"  state="grrgrrgrrgrr" name="r"/>
+    </tlLogic>
+    <tlLogic id="h6" type="static" programID="0" offset="0">
+        <phase duration="9"  state="grGgrrgrGgrr" name="SNL"/>
+        <phase duration="3"  state="grygrrgrygrr" name="y"/>
+        <phase duration="2"  state="grrgrrgrrgrr" name="r"/>
+        <phase duration="61" state="GGrgrrGGrgrr" name="SNT"/>
+        <phase duration="3"  state="gyrgrrgyrgrr" name="y"/>
+        <phase duration="2"  state="grrgrrgrrgrr" name="r"/>
+        <phase duration="9"  state="grrgrGgrrgrG" name="EWL"/>
+        <phase duration="3"  state="grrgrygrrgry" name="y"/>
+        <phase duration="2"  state="grrgrrgrrgrr" name="r"/>
+        <phase duration="61" state="grrGGrgrrGGr" name="EWT"/>
+        <phase duration="3"  state="grrgyrgrrgyr" name="y"/>
+        <phase duration="2"  state="grrgrrgrrgrr" name="r"/>
+    </tlLogic>
+</add>

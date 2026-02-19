@@ -1,0 +1,7 @@
+py "D:\\Program Files\\Eclipse\Sumo\tools\randomTrips.py" -n H_corridor/h.net.xml -r h.rou.xml.
+
+py "D:\\Program Files\\Eclipse\Sumo\tools\routeSampler.py" -r h.rou.xml --edgedata-files H_corridor/h.dat.xml -o sample.rou.xml --write-flows probability --attributes="departLane=\"best\" departSpeed=\"max\"
+
+py "D:\\Program Files\\Eclipse\Sumo\tools\routeSampler.py" -r h_intersection/hi.rou.xml --edgedata-files h_intersection/hi.enter.xml --turn-ratio-files h_intersection/hi.turn.xml -o h_intersection/sample.rou.xml --write-flows probability --write-route-distribution STR --attributes="departLane=\"best\" departSpeed=\"max\"
+
+python "D:\\Program Files\\Eclipse\\Sumo\\tools\\visualization\\plotXMLAttributes.py" scenarios/h_corridor/results/stop.xml -x busStop -y started --ytime1 --legend --xticks-file scenarios/h_corridor/results/stoplist.txt --invert-yaxis --marker o 

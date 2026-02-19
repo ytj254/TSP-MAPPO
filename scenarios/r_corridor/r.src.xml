@@ -1,0 +1,15 @@
+<edgedata>
+    <interval id="src" begin="0" end="4400">
+        <edge id="w6" value="100.00"/>
+        <edge id="sh6" value="100.00"/>
+        <edge id="sh5" value="100.00"/>
+        <edge id="sh4" value="100.00"/>
+        <edge id="sh3" value="100.00"/>
+        <edge id="sh2" value="100.00"/>
+        <edge id="nh6" value="100.00"/>
+        <edge id="nh5" value="100.00"/>
+        <edge id="nh4" value="100.00"/>
+        <edge id="nh3" value="100.00"/>
+        <edge id="e1" value="100.00"/>
+    </interval>
+</edgedata>

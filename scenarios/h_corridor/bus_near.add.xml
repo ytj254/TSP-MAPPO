@@ -1,0 +1,31 @@
+<add>
+    <busStop id="e1" lane="e1_0" startPos="400" endPos="420" lines="100"/>
+    <busStop id="e2" lane="e2_0" startPos="400" endPos="420" lines="100"/>
+    <busStop id="e3" lane="e3_0" startPos="400" endPos="420" lines="100"/>
+    <busStop id="e4" lane="e4_0" startPos="400" endPos="420" lines="100"/>
+    <busStop id="e5" lane="e5_0" startPos="400" endPos="420" lines="100"/>
+
+    <busStop id="w6" lane="w6_0" startPos="400" endPos="420" lines="101"/>
+    <busStop id="w5" lane="w5_0" startPos="400" endPos="420" lines="101"/>
+    <busStop id="w4" lane="w4_0" startPos="400" endPos="420" lines="101"/>
+    <busStop id="w3" lane="w3_0" startPos="400" endPos="420" lines="101"/>
+    <busStop id="w2" lane="w2_0" startPos="400" endPos="420" lines="101"/>
+
+    <vType id="BUS" color="0,1,0" vClass="bus"/>
+
+    <flow id="bus_e" type="BUS" from="e1" to="e6" line="100" begin="0" end="4400" period="300" departLane="best" departSpeed="max">
+        <stop busStop="e1" duration="20"/>
+        <stop busStop="e2" duration="20"/>
+        <stop busStop="e3" duration="20"/>
+        <stop busStop="e4" duration="20"/>
+        <stop busStop="e5" duration="20"/>
+    </flow>
+
+    <flow id="bus_w" type="BUS" from="w6" to="w1" line="101" begin="0" end="4400" period="300" departLane="best" departSpeed="max">
+        <stop busStop="w6" duration="20"/>
+        <stop busStop="w5" duration="20"/>
+        <stop busStop="w4" duration="20"/>
+        <stop busStop="w3" duration="20"/>
+        <stop busStop="w2" duration="20"/>
+    </flow>
+</add>

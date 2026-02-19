@@ -1,0 +1,127 @@
+<add>
+<!--    <timedEvent type="SaveTLSSwitchTimes" source="h2" dest="results/tls_output.xml"/>-->
+    <tlLogic id="h2" type="actuated" programID="NEMA" offset="0">
+        <param key="detector-length" value="20"/>
+        <param key="detector-length-leftTurnLane" value="10"/>
+        <param key="total-cycle-length" value="150"/>
+        <param key="ring1" value="2,3"/>
+        <param key="ring2" value="6,0"/>
+        <param key="barrierPhases" value="2,6"/>
+        <param key="coordinate-mode" value="false"/>
+        <param key="barrier2Phases" value="3,0"/>
+        <param key="minRecall" value="2,6"/>
+        <param key="maxRecall" value=""/>
+        <param key="whetherOutputState" value="true"/>
+        <param key="fixForceOff" value="true"/>
+        <param key="show-detectors" value="true" />
+        <param key="ignore-errors" value="true"/>
+
+        <phase duration="90" state="rrrgrGGG" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="2"/>
+        <phase duration="90" state="rrrGGgrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="3"/>
+        <phase duration="90" state="GGggrrrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="6"/>
+    </tlLogic>
+
+    <tlLogic id="h3" type="NEMA" programID="NEMA" offset="0">
+        <param key="detector-length" value="20"/>
+        <param key="detector-length-leftTurnLane" value="10"/>
+        <param key="total-cycle-length" value="150"/>
+        <param key="ring1" value="1,2,3,4"/>
+        <param key="ring2" value="5,6,7,8"/>
+        <param key="barrierPhases" value="2,6"/>
+        <param key="coordinate-mode" value="false"/>
+        <param key="barrier2Phases" value="4,8"/>
+        <param key="minRecall" value="2,6"/>
+        <param key="maxRecall" value=""/>
+        <param key="whetherOutputState" value="true"/>
+        <param key="fixForceOff" value="true"/>
+        <param key="show-detectors" value="true" />
+        <param key="ignore-errors" value="true"/>
+
+        <phase duration="90" state="grrgrrGgrrgrrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="1"/>
+        <phase duration="90" state="grrgrrrgrrGGGr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="2"/>
+        <phase duration="90" state="grrgrrrgrrgrrG" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="5"/>
+        <phase duration="90" state="grrGGGrgrrgrrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="6"/>
+        <phase duration="90" state="grrgrrrgrGgrrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="3"/>
+        <phase duration="90" state="GGrgrrrgrrgrrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="4"/>
+        <phase duration="90" state="grGgrrrgrrgrrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="7"/>
+        <phase duration="90" state="grrgrrrGGrgrrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="8"/>
+    </tlLogic>
+
+    <tlLogic id="h4" type="NEMA" programID="NEMA" offset="0">
+        <param key="detector-length" value="20"/>
+        <param key="detector-length-leftTurnLane" value="10"/>
+        <param key="total-cycle-length" value="150"/>
+        <param key="ring1" value="1,2,3,4"/>
+        <param key="ring2" value="5,6,7,8"/>
+        <param key="barrierPhases" value="2,6"/>
+        <param key="coordinate-mode" value="false"/>
+        <param key="barrier2Phases" value="4,8"/>
+        <param key="minRecall" value="2,6"/>
+        <param key="maxRecall" value=""/>
+        <param key="whetherOutputState" value="true"/>
+        <param key="fixForceOff" value="true"/>
+        <param key="show-detectors" value="true" />
+        <param key="ignore-errors" value="true"/>
+
+        <phase duration="90" state="grrrgrrGGgrrrgrrrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="1"/>
+        <phase duration="90" state="grrrgrrrrgrrrGGGrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="2"/>
+        <phase duration="90" state="grrrgrrrrgrrrgrrGG" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="5"/>
+        <phase duration="90" state="grrrGGGrrgrrrgrrrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="6"/>
+        <phase duration="90" state="grrrgrrrrgrrGgrrrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="3"/>
+        <phase duration="90" state="GGGrgrrrrgrrrgrrrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="4"/>
+        <phase duration="90" state="grrGgrrrrgrrrgrrrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="7"/>
+        <phase duration="90" state="grrrgrrrrGGGrgrrrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="8"/>
+    </tlLogic>
+
+    <tlLogic id="h5" type="NEMA" programID="NEMA" offset="0">
+        <param key="detector-length" value="20"/>
+        <param key="detector-length-leftTurnLane" value="10"/>
+        <param key="total-cycle-length" value="150"/>
+        <param key="ring1" value="1,2,3,4"/>
+        <param key="ring2" value="5,6,7,8"/>
+        <param key="barrierPhases" value="2,6"/>
+        <param key="coordinate-mode" value="false"/>
+        <param key="barrier2Phases" value="4,8"/>
+        <param key="minRecall" value="2,6"/>
+        <param key="maxRecall" value=""/>
+        <param key="whetherOutputState" value="true"/>
+        <param key="fixForceOff" value="true"/>
+        <param key="show-detectors" value="true" />
+        <param key="ignore-errors" value="true"/>
+
+        <phase duration="90" state="grrgrrGgrrgrrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="1"/>
+        <phase duration="90" state="grrgrrrgrrGGGr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="2"/>
+        <phase duration="90" state="grrgrrrgrrgrrG" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="5"/>
+        <phase duration="90" state="grrGGGrgrrgrrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="6"/>
+        <phase duration="90" state="grrgrrrgrGgrrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="3"/>
+        <phase duration="90" state="GGrgrrrgrrgrrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="4"/>
+        <phase duration="90" state="grGgrrrgrrgrrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="7"/>
+        <phase duration="90" state="grrgrrrGGrgrrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="8"/>
+    </tlLogic>
+
+    <tlLogic id="h6" type="NEMA" programID="NEMA" offset="0">
+        <param key="detector-length" value="20"/>
+        <param key="detector-length-leftTurnLane" value="10"/>
+        <param key="total-cycle-length" value="150"/>
+        <param key="ring1" value="1,2,3,4"/>
+        <param key="ring2" value="5,6,7,8"/>
+        <param key="barrierPhases" value="2,6"/>
+        <param key="coordinate-mode" value="false"/>
+        <param key="barrier2Phases" value="4,8"/>
+        <param key="minRecall" value="2,6"/>
+        <param key="maxRecall" value=""/>
+        <param key="whetherOutputState" value="true"/>
+        <param key="fixForceOff" value="true"/>
+        <param key="show-detectors" value="true" />
+        <param key="ignore-errors" value="true"/>
+
+        <phase duration="90" state="grrgrrGgrrgrrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="1"/>
+        <phase duration="90" state="grrgrrrgrrGGGr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="2"/>
+        <phase duration="90" state="grrgrrrgrrgrrG" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="5"/>
+        <phase duration="90" state="grrGGGrgrrgrrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="6"/>
+        <phase duration="90" state="grrgrrrgrGgrrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="3"/>
+        <phase duration="90" state="GGrgrrrgrrgrrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="4"/>
+        <phase duration="90" state="grGgrrrgrrgrrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="7"/>
+        <phase duration="90" state="grrgrrrGGrgrrr" minDur="10" maxDur="50" vehext="2" yellow="3" red="2" name="8"/>
+    </tlLogic>
+</add>

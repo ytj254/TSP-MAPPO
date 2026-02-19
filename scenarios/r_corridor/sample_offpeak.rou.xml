@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-01-24 22:27:52.047850 by routeSampler.py v1_18_0+0000-03ecfdea036
+<configuration>
+    <route-files value="scenarios/r_corridor/r.rou.xml"/>
+    <turn-files value="scenarios/r_corridor/r.turn_count.xml"/>
+    <output-file value="scenarios/r_corridor/sample_offpeak.rou.xml"/>
+    <attributes value="departLane=&quot;best&quot; departSpeed=&quot;max&quot;"/>
+    <write-flows value="probability"/>
+    <write-route-ids value="True"/>
+    <optimize value="full"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+<!-- begin="0.0" end="4400.0" -->
+    <route id="0" edges="e1 e2 e3 e4 e5 e6"/> <!-- 241 (0) -->
+    <route id="5" edges="e1 e2 e3 hn4"/> <!-- 111 (5) -->
+    <route id="6" edges="e1 e2 e3 hs4"/> <!-- 10 (6) -->
+    <route id="7" edges="e1 e2 hn3"/> <!-- 2 (7) -->
+    <route id="8" edges="e1 e2 hs3"/> <!-- 69 (8) -->
+    <route id="9" edges="e1 hs2"/> <!-- 21 (9) -->
+    <route id="16" edges="nh3 e3 hs4"/> <!-- 7 (16) -->
+    <route id="17" edges="nh3 hs3"/> <!-- 7 (17) -->
+    <route id="20" edges="nh4 e4 e5 e6"/> <!-- 44 (20) -->
+    <route id="25" edges="nh4 hs4"/> <!-- 864 (25) -->
+    <route id="26" edges="nh4 w3 hn3"/> <!-- 1 (26) -->
+    <route id="27" edges="nh4 w3 hs3"/> <!-- 24 (27) -->
+    <route id="29" edges="nh4 w3 w2 w1"/> <!-- 150 (29) -->
+    <route id="30" edges="nh5 e5 e6"/> <!-- 156 (30) -->
+    <route id="33" edges="nh5 hs5"/> <!-- 51 (33) -->
+    <route id="39" edges="nh5 w4 w3 w2 w1"/> <!-- 97 (39) -->
+    <route id="40" edges="nh6 e6"/> <!-- 33 (40) -->
+    <route id="41" edges="nh6 hs6"/> <!-- 11 (41) -->
+    <route id="49" edges="nh6 w5 w4 w3 w2 w1"/> <!-- 52 (49) -->
+    <route id="56" edges="sh2 e2 e3 hs4"/> <!-- 34 (56) -->
+    <route id="59" edges="sh2 w1"/> <!-- 26 (59) -->
+    <route id="66" edges="sh3 e3 hs4"/> <!-- 83 (66) -->
+    <route id="67" edges="sh3 hn3"/> <!-- 11 (67) -->
+    <route id="69" edges="sh3 w2 w1"/> <!-- 94 (69) -->
+    <route id="70" edges="sh4 e4 e5 e6"/> <!-- 47 (70) -->
+    <route id="71" edges="sh4 e4 e5 hn6"/> <!-- 32 (71) -->
+    <route id="73" edges="sh4 e4 hn5"/> <!-- 55 (73) -->
+    <route id="74" edges="sh4 e4 hs5"/> <!-- 15 (74) -->
+    <route id="75" edges="sh4 hn4"/> <!-- 661 (75) -->
+    <route id="77" edges="sh4 w3 hs3"/> <!-- 169 (77) -->
+    <route id="80" edges="sh5 e5 e6"/> <!-- 2 (80) -->
+    <route id="82" edges="sh5 e5 hs6"/> <!-- 27 (82) -->
+    <route id="83" edges="sh5 hn5"/> <!-- 48 (83) -->
+    <route id="85" edges="sh5 w4 hs4"/> <!-- 10 (85) -->
+    <route id="90" edges="sh6 e6"/> <!-- 28 (90) -->
+    <route id="91" edges="sh6 hn6"/> <!-- 20 (91) -->
+    <route id="92" edges="sh6 w5 hn5"/> <!-- 50 (92) -->
+    <route id="100" edges="w6 hn6"/> <!-- 26 (100) -->
+    <route id="101" edges="w6 hs6"/> <!-- 89 (101) -->
+    <route id="102" edges="w6 w5 hn5"/> <!-- 92 (102) -->
+    <route id="103" edges="w6 w5 hs5"/> <!-- 50 (103) -->
+    <route id="104" edges="w6 w5 w4 hn4"/> <!-- 49 (104) -->
+    <route id="105" edges="w6 w5 w4 hs4"/> <!-- 277 (105) -->
+    <route id="108" edges="w6 w5 w4 w3 w2 hs2"/> <!-- 4 (108) -->
+    <route id="109" edges="w6 w5 w4 w3 w2 w1"/> <!-- 212 (109) -->
+
+    <flow id="77" begin="0.00" end="4396.83" probability="0.0384" route="77" departLane="best" departSpeed="max"/>
+    <flow id="103" begin="1.06" end="4164.25" probability="0.0120" route="103" departLane="best" departSpeed="max"/>
+    <flow id="0" begin="2.11" end="4391.54" probability="0.0549" route="0" departLane="best" departSpeed="max"/>
+    <flow id="5" begin="3.17" end="4358.77" probability="0.0255" route="5" departLane="best" departSpeed="max"/>
+    <flow id="75" begin="4.23" end="4392.60" probability="0.1506" route="75" departLane="best" departSpeed="max"/>
+    <flow id="25" begin="6.34" end="4398.94" probability="0.1967" route="25" departLane="best" departSpeed="max"/>
+    <flow id="69" begin="9.51" end="4290.05" probability="0.0220" route="69" departLane="best" departSpeed="max"/>
+    <flow id="20" begin="10.57" end="4382.03" probability="0.0101" route="20" departLane="best" departSpeed="max"/>
+    <flow id="8" begin="12.69" end="4321.77" probability="0.0160" route="8" departLane="best" departSpeed="max"/>
+    <flow id="40" begin="15.86" end="4287.94" probability="0.0077" route="40" departLane="best" departSpeed="max"/>
+    <flow id="29" begin="20.09" end="4369.34" probability="0.0345" route="29" departLane="best" departSpeed="max"/>
+    <flow id="30" begin="21.14" end="4390.49" probability="0.0357" route="30" departLane="best" departSpeed="max"/>
+    <flow id="41" begin="24.32" end="4275.25" probability="0.0026" route="41" departLane="best" departSpeed="max"/>
+    <flow id="27" begin="26.43" end="4199.14" probability="0.0058" route="27" departLane="best" departSpeed="max"/>
+    <flow id="39" begin="28.54" end="4375.68" probability="0.0223" route="39" departLane="best" departSpeed="max"/>
+    <flow id="109" begin="30.66" end="4384.14" probability="0.0487" route="109" departLane="best" departSpeed="max"/>
+    <flow id="17" begin="38.06" end="4395.77" probability="0.0016" route="17" departLane="best" departSpeed="max"/>
+    <flow id="49" begin="41.23" end="4371.46" probability="0.0120" route="49" departLane="best" departSpeed="max"/>
+    <flow id="105" begin="44.40" end="4397.89" probability="0.0636" route="105" departLane="best" departSpeed="max"/>
+    <flow id="104" begin="45.46" end="4280.54" probability="0.0116" route="104" departLane="best" departSpeed="max"/>
+    <flow id="33" begin="46.52" end="4279.48" probability="0.0120" route="33" departLane="best" departSpeed="max"/>
+    <flow id="91" begin="50.74" end="4245.65" probability="0.0048" route="91" departLane="best" departSpeed="max"/>
+    <flow id="101" begin="60.26" end="4394.71" probability="0.0205" route="101" departLane="best" departSpeed="max"/>
+    <flow id="73" begin="66.60" end="4294.28" probability="0.0130" route="73" departLane="best" departSpeed="max"/>
+    <flow id="66" begin="74.00" end="4378.86" probability="0.0193" route="66" departLane="best" departSpeed="max"/>
+    <flow id="92" begin="81.40" end="4334.45" probability="0.0118" route="92" departLane="best" departSpeed="max"/>
+    <flow id="59" begin="93.03" end="4179.05" probability="0.0064" route="59" departLane="best" departSpeed="max"/>
+    <flow id="83" begin="109.95" end="4234.02" probability="0.0116" route="83" departLane="best" departSpeed="max"/>
+    <flow id="102" begin="112.06" end="4367.23" probability="0.0216" route="102" departLane="best" departSpeed="max"/>
+    <flow id="70" begin="126.86" end="4322.83" probability="0.0112" route="70" departLane="best" departSpeed="max"/>
+    <flow id="82" begin="150.12" end="4368.28" probability="0.0064" route="82" departLane="best" departSpeed="max"/>
+    <flow id="67" begin="172.32" end="4050.07" probability="0.0028" route="67" departLane="best" departSpeed="max"/>
+    <flow id="74" begin="211.44" end="4298.51" probability="0.0037" route="74" departLane="best" departSpeed="max"/>
+    <flow id="90" begin="216.72" end="4263.62" probability="0.0069" route="90" departLane="best" departSpeed="max"/>
+    <flow id="16" begin="219.89" end="4005.67" probability="0.0018" route="16" departLane="best" departSpeed="max"/>
+    <flow id="100" begin="224.12" end="4385.20" probability="0.0062" route="100" departLane="best" departSpeed="max"/>
+    <flow id="56" begin="252.67" end="4347.14" probability="0.0083" route="56" departLane="best" departSpeed="max"/>
+    <flow id="71" begin="282.27" end="4324.94" probability="0.0079" route="71" departLane="best" departSpeed="max"/>
+    <flow id="85" begin="397.50" end="4130.42" probability="0.0027" route="85" departLane="best" departSpeed="max"/>
+    <flow id="9" begin="440.85" end="4063.82" probability="0.0058" route="9" departLane="best" departSpeed="max"/>
+    <flow id="6" begin="519.08" end="3775.20" probability="0.0031" route="6" departLane="best" departSpeed="max"/>
+    <flow id="108" begin="1033.93" end="4058.53" probability="0.0013" route="108" departLane="best" departSpeed="max"/>
+    <flow id="80" begin="1229.51" end="2275.06" probability="0.0019" route="80" departLane="best" departSpeed="max"/>
+    <flow id="26" begin="1909.27" end="1910.27" probability="1.0000" route="26" departLane="best" departSpeed="max"/>
+    <flow id="7" begin="2696.88" end="3015.09" probability="0.0063" route="7" departLane="best" departSpeed="max"/>
+</routes>

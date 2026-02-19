@@ -1,0 +1,16 @@
+<data>
+    <interval id="hi" begin="0.00" end="3600.00">
+        <edgeRelation from="e1" to="hn2" probability="0.1"/>
+        <edgeRelation from="sh2" to="w1" probability="0.1"/>
+        <edgeRelation from="w2" to="hs2" probability="0.1"/>
+        <edgeRelation from="nh2" to="e2" probability="0.1"/>
+        <edgeRelation from="e1" to="hs2" probability="0.15"/>
+        <edgeRelation from="sh2" to="e2" probability="0.15"/>
+        <edgeRelation from="w2" to="hn2" probability="0.15"/>
+        <edgeRelation from="nh2" to="w1" probability="0.15"/>
+        <edgeRelation from="e1" to="e2" probability="0.75"/>
+        <edgeRelation from="sh2" to="hn2" probability="0.75"/>
+        <edgeRelation from="w2" to="w1" probability="0.75"/>
+        <edgeRelation from="nh2" to="hs2" probability="0.75"/>
+    </interval>
+</data>
